@@ -1,3 +1,10 @@
+name: CI/CD Pipeline - Saudacoes Aleatorias
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
   build-lint:
     name: 🔍 Lint
     runs-on: ubuntu-latest
